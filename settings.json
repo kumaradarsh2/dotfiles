@@ -1,0 +1,201 @@
+
+{
+    "cmake.options.advanced": {
+
+        "build": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        },
+        "launch": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        },
+        "debug": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        }
+    },
+    "cmake.options.statusBarVisibility": "visible",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "redhat.telemetry.enabled": false,
+    "cmake.showOptionsMovedNotification": false,
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block",
+    "git.openRepositoryInParentFolders": "never",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "editor.wordWrap": "on",
+    "editor.fontVariations": false,
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', 'Consolas', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 21,
+    "editor.fontWeight": "600",
+    "editor.cursorBlinking": "smooth",
+    "editor.wrappingIndent": "indent",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.colorCustomizations": {
+      "[Vira*]": {
+        "toolbar.activeBackground": "#64FFDA26",
+        "activityBarBadge.background": "#64FFDA",
+        "activityBar.activeBorder": "#64FFDA",
+        "activityBarTop.activeBorder": "#64FFDA",
+        "list.inactiveSelectionIconForeground": "#64FFDA",
+        "list.activeSelectionForeground": "#64FFDA",
+        "list.inactiveSelectionForeground": "#64FFDA",
+        "list.highlightForeground": "#64FFDA",
+        "sash.hoverBorder": "#64FFDA80",
+        "list.activeSelectionIconForeground": "#64FFDA",
+        "scrollbarSlider.activeBackground": "#64FFDA80",
+        "editorSuggestWidget.highlightForeground": "#64FFDA",
+        "textLink.foreground": "#64FFDA",
+        "progressBar.background": "#64FFDA",
+        "pickerGroup.foreground": "#64FFDA",
+        "tab.activeBorder": "#64FFDA",
+        "notificationLink.foreground": "#64FFDA",
+        "editorWidget.resizeBorder": "#64FFDA",
+        "editorWidget.border": "#64FFDA",
+        "settings.modifiedItemIndicator": "#64FFDA",
+        "panelTitle.activeBorder": "#64FFDA",
+        "breadcrumb.activeSelectionForeground": "#64FFDA",
+        "menu.selectionForeground": "#64FFDA",
+        "menubar.selectionForeground": "#64FFDA",
+        "editor.findMatchBorder": "#64FFDA",
+        "selection.background": "#64FFDA40",
+        "statusBarItem.remoteBackground": "#64FFDA",
+        "notebook.inactiveFocusedCellBorder": "#64FFDA80",
+        "commandCenter.activeBorder": "#64FFDA80"
+      },
+      "statusBar.background": "#005f5f",
+      "statusBar.noFolderBackground": "#005f5f",
+      "statusBar.debuggingBackground": "#005f5f",
+      "statusBar.foreground": "#ffffff",
+      "statusBar.debuggingForeground": "#ffffff"
+    },
+"editor.stickyScroll.enabled": false,
+"breadcrumbs.enabled": false,
+"editor.minimap.enabled": false,
+"workbench.sideBar.location": "right",
+"editor.suggest.showStatusBar": true,
+"github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+},
+"remote.defaultExtensionsIfInstalledLocally": [
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "GitHub.vscode-pull-request-github"
+],
+"workbench.iconTheme": "material-icon-theme",
+"viraTheme.accent": "Bright Teal",
+"[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"C_Cpp.files.exclude": {
+    "**/.vscode": true,
+    "**/.vs": true
+},
+"files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.vscode": true
+},
+"prettier.singleQuote": true,
+"chat.instructionsFilesLocations": {
+  ".github/instructions": true,
+  "/tmp/postman-http-request-post-response.instructions.md": true,
+  "/tmp/postman-http-request-pre-request.instructions.md": true,
+  "/tmp/postman-collections-post-response.instructions.md": true,
+  "/tmp/postman-collections-pre-request.instructions.md": true,
+  "/tmp/postman-folder-post-response.instructions.md": true,
+  "/tmp/postman-folder-pre-request.instructions.md": true
+},
+"extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+},
+"[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+},
+
+"vim.useSystemClipboard": true,
+"vim.leader": "<space>",
+"vim.normalModeKeyBindings": [
+    {
+        "before": ["<leader>", "E"],
+        "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+  "before": ["<leader>", "e"],
+  "commands": ["workbench.view.explorer"]
+},
+
+  {
+    "before": ["<leader>", "w"],
+    "commands": ["workbench.action.files.save"]
+  },
+  {
+    "before": ["<leader>", "q"],
+    "commands": ["workbench.action.closeActiveEditor"]
+  },
+  
+],
+"vim.insertModeKeyBindings": [
+  {
+    "before": ["j", "j"],
+    "after": ["<Esc>"]
+  }
+],
+
+// adding more keybindings
+// settings.json
+
+// Cursor shape per mode
+"vim.cursorStylePerMode.insert": "line",     // |
+"vim.cursorStylePerMode.normal": "block",    // █
+"vim.cursorStylePerMode.visual": "block",
+"vim.cursorStylePerMode.replace": "underline",
+"vim.cursorStylePerMode.commandline": "line",
+
+// Line numbers
+"editor.lineNumbers": "relative",           // Show relative
+"vim.useCtrlKeys": true,                    // Enables classic Vim ctrl bindings
+"vim.statusBarColorControl": true,          // Show mode in status bar
+"vim.useSystemClipboard": true,             // Enables + clipboard support
+"vim.hlsearch": true,                       // Highlights search results
+"vim.incsearch": true,                      // Incremental search
+"vim.easymotion": true,                     // Optional, jump to words/lines
+"vim.smartRelativeLine": true,
+"workbench.activityBar.location": "bottom",
+"workbench.editor.showTabs": "none",
+"window.menuBarVisibility": "compact",
+"window.commandCenter": false,
+"workbench.editor.enablePreview": false,
+"window.title": "${dirty}${activeEditorShort}",
+"chat.agent.enabled": false,
+"chat.commandCenter.enabled": false,
+"workbench.secondarySideBar.defaultVisibility": "hidden",
+"editor.guides.indentation": false,
+"problems.showCurrentInStatus": true,
+"chat.sendElementsToChat.enabled": false,
+"chat.sendElementsToChat.attachImages": false,
+"chat.sendElementsToChat.attachCSS": false,
+"workbench.startupEditor": "none",
+"C_Cpp.copilotHover": "disabled",
+"github.copilot.chat.agent.autoFix": false,
+"github.copilot.chat.agent.runTasks": false,
+"github.copilot.chat.codeGeneration.useInstructionFiles": false,
+"github.copilot.chat.customInstructionsInSystemMessage": false,
+"github.copilot.editor.enableCodeActions": false,
+"explorer.confirmDragAndDrop": false,
+"workbench.colorTheme": "Catppuccin Mocha",
+}
